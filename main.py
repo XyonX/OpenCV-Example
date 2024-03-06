@@ -22,10 +22,10 @@ image_black = np.zeros((512,512,3),np.uint8)
 #image starting, ending, size
 cv2.rectangle(image_black,(200,100),(300,250),(255,255,255),2)
 #image, centre, radius, colr , fill
-cv2.circle(image_black,(300,300),100,(255,255,255),-1)
-our_string = "Hello World"
+#cv2.circle(image_black,(300,300),100,(255,255,255),-1)
+#our_string = "Hello World"
 #image, text to display, bottom left starting point, Font,font size, Color, Thickness
-cv2.putText(image_black,our_string,(155,290),cv2.FONT_HERSHEY_SIMPLEX,1,(40,200,0),4)
+#cv2.putText(image_black,our_string,(155,290),cv2.FONT_HERSHEY_SIMPLEX,1,(40,200,0),4)
 
 
 R, G, B= cv2.split(image)
